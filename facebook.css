@@ -1,0 +1,121 @@
+body{
+    background-color: #f0f2f5;
+}
+
+.title-container{
+    width: 469px;
+    margin-top: 180px;
+    margin-left: 190px;
+    position: relative;
+}
+
+.facebook img{
+    height: 130px;
+    position: relative;
+}
+h2{
+    font-size: 25px;
+    line-height: 28px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    width: auto;
+    font-weight: normal;
+    margin-top: -28px;
+}
+
+
+.form-warapper{
+    border:none;
+    background-color: white;
+    width: 396px;
+    margin-left: 700px;
+    margin-top: -210px;
+    height: 300px;
+    position: absolute;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    padding: 20px 0 28px;
+    border-radius: 6px;
+}
+
+input{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    margin-left: 15px;
+    line-height: 20px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    margin-top: 10px;
+}
+
+.login button{
+    background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 368px;
+    color: #fff;
+    font-family: 20px Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 15px;
+    cursor: pointer
+}
+
+.forgotpassword a{
+    text-decoration: none;
+    text-align: center;
+    color: #0866ff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.forgotpassword a:hover{
+    text-decoration: underline;
+}
+
+.line{
+   border-bottom: 1px solid #dadde1;
+   align-items: center;
+   margin: 20px 16px;
+}
+
+.createnewaccount{
+    align-items: center;
+    text-align: center
+}
+
+.createnewaccount button{
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42B72A;
+    font-weight: bold;
+    font-family: 17px Helvetica, Arial, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.createnewaccount button:hover{
+    background-color: #36a420;
+    border-color: #36a420;
+}
+.branding{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.branding a{
+        font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        text-decoration: none;
+        color: rgb(28, 30, 33);
+}
+
+.branding a:hover{
+    text-decoration: underline;
+}
