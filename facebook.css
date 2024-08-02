@@ -4,18 +4,19 @@ body{
 }
 
 .title-container{
-    width: 469px;
+    width: 485px;
     margin-top: 180px;
     margin-left: 190px;
     position: relative;
+    text-align: left;
 }
 
 .facebook img{
-    height: 130px;
+    height: 170px;
     position: relative;
 }
 h2{
-    font-size: 25px;
+    font-size: 27px;
     line-height: 28px;
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
     width: auto;
@@ -25,23 +26,23 @@ h2{
 
 
 .form-warapper{
-    border:none;
     background-color: white;
-    width: 396px;
-    margin-left: 700px;
-    margin-top: -210px;
+    width: 425px;
+    height: 700px;
+    margin-left: 785px;
+    margin-top: -250px;
     height: 300px;
     position: absolute;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
     padding: 20px 0 28px;
-    border-radius: 6px;
+    border-radius: 8px;
 }
 
 input{
     font-size: 17px;
     padding: 14px 16px;
-    width: 330px;
-    margin-left: 15px;
+    width: 360px;
+    margin-left: 8px;
     line-height: 20px;
     border-radius: 6px;
     border: 1px solid #dbe1e9;
@@ -68,7 +69,7 @@ input{
     text-decoration: none;
     text-align: center;
     color: #0866ff;
-    font-size: 14px;
+    font-size: 19px;
     font-weight: 500;
 }
 
@@ -120,37 +121,25 @@ input{
 .branding a:hover{
     text-decoration: underline;
 }
-
 @media screen and (max-width:767px){
     .title-container{
-        margin-left: 70px;
+        margin-left: 15px;
         margin-top: -20px;
         text-align: center;
-        width:400px;
+        width: 100vw;
         align-items: center;
     }
+    .form-warapper{
+        margin: 0px;
+        margin-left:5px;
 
-    .facebook img{
-        height: 160px;
-        position: relative;
     }
 
     h2{
-        word-spacing: 3px;
+        font-size: 27px;
+        font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        margin-top: -40px;
     }
-    .form-warapper{
-        background-color: white;
-        text-align: center;
-        width: 90vw;
-        margin-left: 0px;
-        margin-top:0px;
-        margin: auto;
-        height: 300px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
-        padding: 20px 0 28px;
-        border-radius: 6px;
-    }
-
-
+    
 }
-
