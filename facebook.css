@@ -1,5 +1,6 @@
 body{
     background-color: #f0f2f5;
+    text-align: center;
 }
 
 .title-container{
@@ -43,7 +44,7 @@ input{
     margin-left: 15px;
     line-height: 20px;
     border-radius: 6px;
-    border: 1px solid #dddfe2;
+    border: 1px solid #dbe1e9;
     margin-top: 10px;
 }
 
@@ -119,3 +120,37 @@ input{
 .branding a:hover{
     text-decoration: underline;
 }
+
+@media screen and (max-width:767px){
+    .title-container{
+        margin-left: 70px;
+        margin-top: -20px;
+        text-align: center;
+        width:400px;
+        align-items: center;
+    }
+
+    .facebook img{
+        height: 160px;
+        position: relative;
+    }
+
+    h2{
+        word-spacing: 3px;
+    }
+    .form-warapper{
+        background-color: white;
+        text-align: center;
+        width: 90vw;
+        margin-left: 0px;
+        margin-top:0px;
+        margin: auto;
+        height: 300px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+        padding: 20px 0 28px;
+        border-radius: 6px;
+    }
+
+
+}
+
